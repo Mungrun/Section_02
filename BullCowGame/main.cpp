@@ -60,7 +60,8 @@ void PrintIntro()
 {
 	//introduce the game
 	std::cout << std::endl;
-	std::cout << "Welcome to Bulls and Cows\n";
+	std::cout << "Welcome to Bulls and Cows.\n\n";
+	std::cout << ":D\n\n";
 	std::cout << "Can you guess the " << BCGame.GetHiddenWordLength() << " letter isogram I am thinking of?\n";
 	std::cout << std::endl;
 	return;
